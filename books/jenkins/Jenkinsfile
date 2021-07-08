@@ -10,10 +10,10 @@ pipeline {
     }
 
     environment {
-        DEV_PROJECT = "divyanshidm-books-dev"
-        STAGE_PROJECT = "divyanshidm-books-stage"
+        DEV_PROJECT = "jfidge-books-dev"
+        STAGE_PROJECT = "jfidge-books-stage"
         APP_GIT_URL = "https://github.com/divyanshidm/DO288-apps"
-        NEXUS_SERVER = "http://nexus-common.apps.cluster.domain.example.com/repository/nodejs"
+        NEXUS_SERVER = "http://nexus-common.apps.ap45.prod.nextcle.com/repository/nodejs"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "books"
